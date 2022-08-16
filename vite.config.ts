@@ -1,16 +1,8 @@
 import { defineConfig } from "vite";
 import { resolve } from "path";
-// import react from "@vitejs/plugin-react";
 import { NodeGlobalsPolyfillPlugin } from "@esbuild-plugins/node-globals-polyfill";
 import { NodeModulesPolyfillPlugin } from "@esbuild-plugins/node-modules-polyfill";
 import nodePolyfills from "rollup-plugin-polyfill-node";
-// import rollupNodePolyFill from "rollup-plugin-node-polyfills";
-// import nodePolyfills from "rollup-plugin-polyfill-node";
-// import viteSentry from "vite-plugin-sentry";
-// import pluginRewriteAll from "vite-plugin-rewrite-all";
-// import mkcert from "vite-plugin-mkcert";
-// import removeConsole from "vite-plugin-remove-console";
-// import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig(async ({ mode }) => {
